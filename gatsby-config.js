@@ -4,10 +4,10 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Starter Procyon',
-    shortName: 'Procyon',
+    title: 'Austin Family Farm',
+    shortName: 'AFF',
     description:
-      'An opinionated Gatsby starter designed for trash-eating pandas.',
+      'Life on the hill.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -52,7 +52,7 @@ module.exports = {
         background_color: '#fafafa',
         theme_color: '#212121',
         display: 'minimal-ui',
-        icon: 'src/images/icon.png',
+        icon: 'src/images/',
       },
     },
     'gatsby-plugin-offline',

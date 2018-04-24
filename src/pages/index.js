@@ -9,11 +9,11 @@ import Button from '../components/Button';
 import Section from '../components/Section';
 
 const content = `
-De commodo exquisitaque. Ut magna labore nam litteris, nulla se cupidatat de
-constias elit sed laborum illustriora ut malis incurreret fidelissimae. Fabulas
-et cernantur.Aliqua admodum ita quid sint. Noster cupidatat ingeniis, ad hic
-labore ingeniis, quis vidisse ubi labore tempor, ita quem offendit probant. Aut
-illum cillum minim consequat ea legam te iis fore consequat.
+Welcome to life on the hill!
+
+This website is dedicated to showing you all the fun things we come across here in Polkton, NC.  
+Whether its a new litter of Cane Corso puppies or shy pot-bellied pig we got you covered!
+
 `;
 
 const Home = ({ data }) => {

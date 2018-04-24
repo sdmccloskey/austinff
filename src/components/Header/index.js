@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import { Grid, Button } from 'material-ui';
-import logoImage from '../../images/logo.png';
+import logoImage from '../../images/affclipsunset.png';
 import styled from '../../utils/styled';
 
 const HeaderWrapper = styled(Grid, {
@@ -22,7 +22,7 @@ const Title = styled('h1')(theme => ({
 }));
 const Logo = styled('img')(theme => ({
   marginTop: theme.spacing.unit * 4,
-  height: 196,
+  height: 300,
 }));
 const NavLink = styled(Button, { component: Link })(theme => ({
   color: 'gray',
