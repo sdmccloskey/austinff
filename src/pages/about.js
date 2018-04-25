@@ -19,7 +19,7 @@ const About = ({ data }) => {
     <Section>
       <Grid item xs={12} sm={8}>
         <Helmet title="About" />
-        <Typography variant="display1">About</Typography>
+        <Typography variant="display1">Animals</Typography>
         <Typography component={Markdown} source={content} escapeHtml={false} />
       </Grid>
     </Section>

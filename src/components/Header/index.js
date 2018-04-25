@@ -23,6 +23,7 @@ const Title = styled('h1')(theme => ({
 const Logo = styled('img')(theme => ({
   marginTop: theme.spacing.unit * 4,
   height: 400,
+  alignItems: 'center'
 }));
 const NavLink = styled(Button, { component: Link })(theme => ({
   color: 'gray',
@@ -36,8 +37,8 @@ const Header = ({ data: { site } }) => (
       </Link>
       <Navigation>
         <NavLink to="/">Home</NavLink>
-        <NavLink to="/services">Services</NavLink>
-        <NavLink to="/about">About</NavLink>
+        <NavLink to="/services">Dogs</NavLink>
+        <NavLink to="/about">Animals</NavLink>
         <NavLink to="/blog">Blog</NavLink>
         <NavLink to="/contact">Contact</NavLink>
       </Navigation>

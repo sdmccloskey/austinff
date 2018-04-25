@@ -46,9 +46,7 @@ const IndexPage = ({ data }) => {
         <Helmet title="Blog" />
         <Typography variant="display1">Blog</Typography>
         <Typography>
-          Officia e ipsum. Ut quis expetendis exquisitaque an eiusmod ubi nisi,
-          ex ab ipsum enim quis, quo quamquam a ullamco. Ab aliquip
-          comprehenderit, occaecat quae fugiat excepteur export.
+          This is where you will find the most up-to-date events going on here at the farm!
         </Typography>
         <List>
           {data.allPost.edges.map(post => (
