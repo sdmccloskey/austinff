@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Link from 'gatsby-link';
 import { Grid, Typography } from 'material-ui';
-import logoImage from '../../images/affclipsunset.png';
+import logoImage from '../../images/austinfamilyfarmtext.png';
 import styled from '../../utils/styled';
 import netlifyIdentity from 'netlify-identity-widget';
 
@@ -50,8 +50,9 @@ const Caption = styled(Typography, { variant: 'caption' })(theme => ({
   },
 }));
 const FooterLogo = styled('img')(theme => ({
-  height: 80,
+  height: 300,
   padding: '0 1rem',
+  marginTop: -120,
 }));
 
 class Footer extends Component {

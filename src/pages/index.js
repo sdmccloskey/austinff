@@ -12,7 +12,7 @@ const content = `
 Welcome to life on the hill!
 
 This website is dedicated to showing you all the fun things we come across here in Polkton, NC.  
-Whether its a new litter of Cane Corso puppies or shy pot-bellied pig we got you covered!
+Whether its a new litter of Cane Corso puppies or a shy pot-bellied pig we got you covered!
 
 `;
 
