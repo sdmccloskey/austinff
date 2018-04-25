@@ -63,19 +63,19 @@ class Footer extends Component {
     const { data: { site } } = this.props;
     return (
       <FooterWrapper>
-        <Left item xs={12} sm={5}>
+        <Left item xs={12} sm={4}>
           <Caption>
             &copy; 2018 {site.siteMetadata.title}
             {` | `}
             <a onClick={this.handleLogin('login')}>Login</a>
           </Caption>
         </Left>
-        <Middle item xs={12} sm={2}>
+        <Middle item xs={12} sm={4}>
           <Link to="/">
             <FooterLogo src={logoImage} alt={site.siteMetadata.title} />
           </Link>
         </Middle>
-        <Right item xs={12} sm={5}>
+        <Right item xs={12} sm={4}>
           <Caption>
             <FooterLink to="/privacy-policy">
               <Typography variant="caption">Privacy Policy</Typography>
