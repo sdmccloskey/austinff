@@ -38,6 +38,11 @@ const Right = styled(Grid)(theme => ({
   [theme.breakpoints.down('sm')]: {
     textAlign: 'center',
   },
+  
+  [theme.breakpoints.down('xs')]: {
+    marginTop: -70,
+  },
+  
 }));
 const FooterLink = styled(Link)(theme => ({
   display: 'inline-block',
@@ -53,6 +58,10 @@ const FooterLogo = styled('img')(theme => ({
   height: 300,
   padding: '0 1rem',
   marginTop: -120,
+  [theme.breakpoints.down('xs')]: {
+    marginTop: -70,
+  },
+  
 }));
 
 class Footer extends Component {

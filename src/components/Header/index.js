@@ -23,7 +23,9 @@ const Title = styled('h1')(theme => ({
 const Logo = styled('img')(theme => ({
   marginTop: theme.spacing.unit * 4,
   height: 400,
-  alignItems: 'center'
+  alignItems: 'center',
+  marginLeft: -9,
+  
 }));
 const NavLink = styled(Button, { component: Link })(theme => ({
   color: 'gray',
