@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import { Grid, Button } from 'material-ui';
-import logoImage from '../../images/affclipsunset.png';
+import logoImage from '../../images/affclipsunset.svg';
 import styled from '../../utils/styled';
 
 const HeaderWrapper = styled(Grid, {
